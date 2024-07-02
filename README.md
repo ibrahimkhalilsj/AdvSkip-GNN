@@ -9,6 +9,9 @@ This repository contains a PyTorch implementation of "Skip Connections and Train
 - networkx 2.1
 - scikit-learn
 
+## To Clone The Repository
+!git clone -b master https://github.com/ibrahimkhalilsj/SC-GCN.git
+
 ## Datasets
 
 The `data` folder contains three benchmark datasets(Cora, Citeseer, Pubmed), and the `newdata` folder contains four datasets(Chameleon, Cornell, Texas, Wisconsin) from [Geom-GCN](https://github.com/graphdml-uiuc-jlu/geom-gcn). We use the full-supervised setting as [GCN](https://github.com/tkipf/gcn).
@@ -19,10 +22,10 @@ Improved results are shown in bold. (A full comparison is shown in the paper.)
 
 | Dataset | Training Cost(sec) |  Accuracy | Dataset | Training Cost(sec) |  Accuracy |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| Cora       | **480.00** | 88.03  | Cham | **79.6865**  | **67.43** |
-| Cite       | 269.95 | **76.99**  | Corn | **185.32** | **74.59** |
-| Pubm       | **3168.37** | **67.43**  | Texa | 369.5642 | **79.46** |
-| Wisc | **104.89** | 77.06 |
+| Cora       | **468.11** | 88.25  | Cham | **88.25**  | **67.39** |
+| Cite       | 267.54 | **76.99**  | Corn | **211.39** | **79.46** |
+| Pubm       | **2835.49** | **89.25**  | Texa | 446.39 | **79.46** |
+| Wisc | **111.57** | 77.06 |
 
 
 
