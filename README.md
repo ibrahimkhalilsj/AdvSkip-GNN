@@ -1,1 +1,1 @@
-# SC-GCN
+# Advskip-GNN
