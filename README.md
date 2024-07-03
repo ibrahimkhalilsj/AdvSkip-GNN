@@ -1,6 +1,6 @@
-# Skip Connections and Training Cost Reduction: A Game Changer in  Graph Neural Networks 
+# Skip Connections and Adversarial Training: A Game Changer in Graph Neural Networks Approach to Node Classification
 
-This repository contains a PyTorch implementation of "Skip Connections and Training Cost Reduction: A Game Changer in Graph Neural Networks".
+This repository contains a PyTorch implementation of "Skip Connections and Adversarial Training: A Game Changer in Graph Neural Networks Approach to Node Classification".
 
 ## Dependencies
 - CUDA 10.1
