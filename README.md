@@ -1,1 +1,1 @@
-# Advskip-GNN
+# AdvSkip-GNN
