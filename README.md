@@ -42,3 +42,5 @@ python -u full-supervised.py --data cornell --layer 16 --lamda 1 --weight_decay 
 python -u full-supervised.py --data texas --layer 32 --lamda 1.5 --weight_decay 1e-4
 python -u full-supervised.py --data wisconsin --layer 16 --lamda 1 --weight_decay 5e-4
 ```
+## To Reproduce The Base Paper(GCNII) Results (Accuracy and Training Cost) Run The following Code
+https://github.com/chennnM/GCNII
