@@ -21,7 +21,6 @@ def parse_index_file(filename):
         index.append(int(line.strip()))
     return index
 
-
 def sample_mask(idx, l):
     """Create mask."""
     mask = np.zeros(l)
