@@ -1,4 +1,4 @@
-# Skip Connections and Adversarial Training: A Game Changer in Graph Neural Networks Approach to Node Classification
+# Skip Connections and Adversarial Training: A Game Changer in Graph Neural Networks for Node Classification
 
 This repository contains a PyTorch implementation of "Skip Connections and Adversarial Training: A Game Changer in Graph Neural Networks Approach to Node Classification".
 
