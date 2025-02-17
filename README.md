@@ -28,7 +28,6 @@ Improved results are shown in bold. (A full comparison is shown in the paper.)
 | Wisc | **111.57** | 77.06 |
 
 
-
 ## Usage
 
 To replicate the full-supervised results, run the following scripts:
