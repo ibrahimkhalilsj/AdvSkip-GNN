@@ -74,7 +74,7 @@ def generate_adversarial_example(model, features, adj, labels, idx_train, epsilo
 
     return adversarial_features
 
-# Modify the train() function to include adversarial training
+# Modify train() function to include adversarial training
 def train():
     model.train()
     optimizer.zero_grad()
