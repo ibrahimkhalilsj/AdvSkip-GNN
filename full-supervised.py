@@ -50,7 +50,6 @@ def train_step(model,optimizer,features,labels,adj,idx_train):
     optimizer.step()
     return loss_train.item(),acc_train.item()
 
-
 def validate_step(model,features,labels,adj,idx_val):
     model.eval()
     with torch.no_grad():
@@ -68,7 +67,6 @@ def test_step(model,features,labels,adj,idx_test):
         acc_test = accuracy(output[idx_test], labels[idx_test].to(device))
         return loss_test.item(),acc_test.item()
     
-
 def train(datastr,splitstr):
     adj, features, labels, idx_train, idx_val, idx_test, num_features, num_labels = full_load_data(datastr,splitstr)
     features = features.to(device)
