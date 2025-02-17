@@ -341,7 +341,6 @@ def load_ppi():
     val_nodes = np.array(nodes_per_graph[val_split[0]:val_split[-1]+1])
     test_nodes = np.array(nodes_per_graph[test_split[0]:test_split[-1]+1])
 
-
     #Masks with ones
 
     tr_msk = np.zeros((len(nodes_per_graph[train_split[0]:train_split[-1]+1]), subgraph_nodes))
