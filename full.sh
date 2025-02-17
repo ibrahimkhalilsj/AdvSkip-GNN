@@ -1,4 +1,3 @@
-##
 python -u full-supervised.py --data cora --layer 64 --alpha 0.2 --weight_decay 1e-4
 python -u full-supervised.py --data cora --layer 64 --alpha 0.2 --weight_decay 1e-4 --variant
 python -u full-supervised.py --data citeseer --layer 64 --weight_decay 5e-6
